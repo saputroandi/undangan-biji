@@ -51,7 +51,7 @@ function Akad() {
             </div>
           </div>
 
-          <div className="live-button">
+          {/* <div className="live-button">
             <a
               //  href="https://www.instagram.com/setyariniarum/"
               onClick={() =>
@@ -64,7 +64,7 @@ function Akad() {
             >
               Live Stream
             </a>
-          </div>
+          </div> */}
         </div>
 
         <style jsx>{`

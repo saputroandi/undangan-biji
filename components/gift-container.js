@@ -17,7 +17,7 @@ function DisplayedGift() {
 
   return (
     <div>
-      <div className="gift container">
+      <div className="gift container" id="gift">
         <div className="gift-wrapper">
           <div className="header">
             <p>Love Gift</p>
@@ -30,7 +30,9 @@ function DisplayedGift() {
           </div>
           <div className="rekening-wrapper">
             <div className="rekening">
-              <div className="icon">Icon Bca Blm Masuk</div>
+              <div className="icon">
+                <img src="/asset/bca.png" />
+              </div>
               <div className="owner">
                 a/n <strong>Amelia</strong>
               </div>
@@ -45,7 +47,9 @@ function DisplayedGift() {
               </div>
             </div>
             <div className="rekening">
-              <div className="icon">Icon Sinarmas Blm Masuk</div>
+              <div className="icon">
+                <img src="/asset/sinarmas.png" />
+              </div>
               <div className="owner">
                 a/n <strong>Albiji Acadnesia</strong>
               </div>
@@ -86,20 +90,6 @@ function DisplayedGift() {
           align-self: center;
         }
 
-        .close-button {
-          position: absolute;
-          top: 0;
-          right: 0;
-          margin: 0.5rem 0.5rem 0 0;
-          border-radius: 50%;
-          width: 2rem;
-          background-color: rgb(191, 146, 112);
-          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-          padding: 0.5rem;
-          font-size: 1.25em;
-          display: block;
-        }
-
         .header {
           font-family: "Great Vibes", serif;
           letter-spacing: 0.245rem;
@@ -117,6 +107,11 @@ function DisplayedGift() {
           border-radius: 0.5rem;
         }
 
+        .icon > img {
+          width: 8rem;
+          height: auto;
+        }
+
         .owner {
           font-size: 1.5em;
         }
@@ -127,7 +122,7 @@ function DisplayedGift() {
 
         .copy-rekening {
           padding: 0.5rem 1rem;
-          background-color: rgb(191, 146, 112);
+          background-color: rgb(227, 183, 160);
           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
           border-radius: 0.25rem;
         }

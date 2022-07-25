@@ -30,18 +30,17 @@ function Ucapan() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // if (pesanBaru.nama.length > 0 && pesanBaru.pesan.length > 0) {
-    //   await sanityClient.create({
-    //     _id: ts,
-    //     _type: "ucapan",
-    //     sender: pesanBaru.nama,
-    //     pesan: pesanBaru.pesan,
-    //   });
-    //   setPesanBaru(initialState);
-    //   handleFetch();
-    // }
     setWrite(true);
-    alert("message submitted");
+    if (pesanBaru.nama.length > 0 && pesanBaru.pesan.length > 0) {
+      await sanityClient.create({
+        _id: ts,
+        _type: "ucapan",
+        sender: pesanBaru.nama,
+        pesan: pesanBaru.pesan,
+      });
+      setPesanBaru(initialState);
+      handleFetch();
+    }
   };
 
   useEffect(() => {
@@ -169,7 +168,7 @@ function Ucapan() {
           }
 
           .ucapan-data {
-            background-color: rgb(191, 146, 112);
+            background-color: rgb(227, 183, 160);
             width: 95%;
             padding: 1rem;
             margin-bottom: 0.5rem;

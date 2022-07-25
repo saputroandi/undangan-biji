@@ -105,7 +105,7 @@ function CoupleDetails(props) {
 
           .couple-image > img {
             width: inherit;
-            border: 2px solid violet;
+            border: 2px solid rgb(227, 183, 160);
           }
 
           .couple-image-ornamen {

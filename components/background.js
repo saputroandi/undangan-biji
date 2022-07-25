@@ -12,7 +12,7 @@ function Background() {
           bottom: 0;
           left: 0;
           z-index: -30;
-          background-color: rgb(191, 146, 112);
+          background-color: rgb(237, 205, 187);
           height: 100vh;
           width: 100vw;
         }

@@ -175,7 +175,7 @@ export default function Home() {
             margin: 0 auto;
             background-color: rgba(255, 255, 255, 0.75);
             padding: 2.5rem 2rem;
-            border: 2px solid rgb(102, 51, 0);
+            border: 2px solid rgb(227, 183, 160);
             box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
               rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
             z-index: 10;
@@ -250,7 +250,7 @@ export default function Home() {
             width: 100vw;
             height: 100vh;
             z-index: -31;
-            background-color: rgb(244, 223, 186);
+            background-color: rgb(255, 237, 219);
             position: fixed;
             top: 0;
             right: 0;

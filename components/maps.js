@@ -53,7 +53,7 @@ function Maps() {
 
           .link-button {
             padding: 0.5rem 0.75rem;
-            background-color: rgb(191, 146, 112);
+            background-color: rgb(227, 183, 160);
             border-radius: 0.25rem;
           }
 

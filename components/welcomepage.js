@@ -91,7 +91,7 @@ function WelcomePage(props) {
         .nama-tamu {
           width: 20rem;
           height: 6rem;
-          background-color: rgb(211, 222, 220);
+          background-color: rgba(237, 205, 187, 0.78);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -128,11 +128,11 @@ function WelcomePage(props) {
         @keyframes welcome {
           0% {
             transform: scale(1);
-            background-color: rgb(191, 146, 112);
+            background-color: rgb(227, 183, 160);
           }
           100% {
             transform: scale(1.05);
-            background-color: rgb(206, 171, 147);
+            background-color: rgb(255, 237, 219);
           }
         }
       `}</style>
