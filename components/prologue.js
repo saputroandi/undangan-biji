@@ -4,7 +4,7 @@ import Flower from "./flower";
 function Prologue() {
   return (
     <div className="container prologue" data-aos="fade-up">
-      <Flower />
+      {/* <Flower /> */}
       <div className="prologue-image">
         <img src="/asset/basmallah.png" alt="basmallah.png" />
       </div>

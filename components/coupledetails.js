@@ -5,7 +5,7 @@ function CoupleDetails(props) {
   return (
     <div id="couple">
       <div className="couple container" data-aos="fade-up">
-        <Flower />
+        {/* <Flower /> */}
         <div className="couple-image-wrapper">
           <div
             className="couple-image"
@@ -13,9 +13,9 @@ function CoupleDetails(props) {
             data-aos-delay="500"
           >
             <img src="/asset/nadia_cropped.jpg" alt="couple.jpg" />
-            {/* <div className="couple-image-ornamen">
-              <img src="/asset/ornamen-foto-couple.png" alt="couple.jpg" />
-            </div> */}
+            <div className="couple-image-ornamen">
+              <img src="/asset/ornamen_foto.png" alt="couple.jpg" />
+            </div>
           </div>
           <div
             className="couple-name"
@@ -64,9 +64,9 @@ function CoupleDetails(props) {
             data-aos-delay="500"
           >
             <img src="/asset/biji_cropped.jpg" alt="couple.jpg" />
-            {/* <div className="couple-image-ornamen">
-              <img src="/asset/ornamen-foto-couple.png" alt="couple.jpg" />
-            </div> */}
+            <div className="couple-image-ornamen">
+              <img src="/asset/ornamen_foto.png" alt="couple.jpg" />
+            </div>
           </div>
           {/* <div className="love-story">
             <div

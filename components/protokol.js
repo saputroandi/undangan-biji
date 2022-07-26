@@ -5,7 +5,7 @@ function Protokol() {
   return (
     <div id="protokol">
       <div className="protokol container" data-aos="fade-up">
-        <Flower />
+        {/* <Flower /> */}
         <div className="protokol-content-wrapper">
           <div className="protokol-header">
             <p>Protokol Kesehatan</p>

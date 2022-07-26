@@ -8,7 +8,7 @@ function Akad() {
   return (
     <div id="resepsi">
       <div data-aos="fade-up" className="akad container">
-        <Flower />
+        {/* <Flower /> */}
         <div className="akad-content">
           <div className="header">
             <p>Akad</p>

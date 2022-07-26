@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 function Resepsi() {
   return (
     <div className="resepsi container" data-aos="fade-up">
-      <Flower />
+      {/* <Flower /> */}
       <div className="resepsi-content">
         <div className="header">
           <p>Resepsi</p>

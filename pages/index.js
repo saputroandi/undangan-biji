@@ -20,6 +20,7 @@ import MusicIcon from "../components/musicIcon";
 import WelcomePage from "../components/welcomepage";
 import Navigation from "../components/navigation";
 import DisplayedGift from "../components/gift-container";
+import Footer from "../components/footer";
 
 export default function Home() {
   const [visible, setVisible] = useState(false);
@@ -96,6 +97,8 @@ export default function Home() {
         <DisplayedGift />
 
         <Ucapan />
+
+        <Footer />
 
         <div className="image-bot">
           <img src="/asset/corner-flower-3.png" alt="corner-flower-3.png" />

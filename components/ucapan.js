@@ -30,6 +30,7 @@ function Ucapan() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    if (pesanBaru.nama.length <= 0 || pesanBaru.pesan.length <= 0) return;
     setWrite(true);
     if (pesanBaru.nama.length > 0 && pesanBaru.pesan.length > 0) {
       await sanityClient.create({
@@ -106,6 +107,10 @@ function Ucapan() {
         </div>
 
         <style jsx>{`
+          .ucapan {
+            margin-bottom: 3rem;
+          }
+
           .ucapan-wrapper {
             display: flex;
             flex-direction: column;
